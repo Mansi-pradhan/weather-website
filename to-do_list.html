@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="search-bar">
+          <input type="text" placeholder="Search" />
+        </div>
+
+        <nav class="menu">
+          <ul>
+            <li>HOME</li>
+            <li>PERSONAL</li>
+            <li>CALENDAR</li>
+            <li>Theme</li>
+            <li>Setting</li>
+            <li>ADD FRIENDS</li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Main Dashboard -->
+      <main class="main-dashboard">
+        <h1>MY DASHBOARD</h1>
+        <p>July 1 Tuesday</p>
+
+        <section class="task-list">
+          <!-- Task Item -->
+          <div class="task-item">
+            <input type="checkbox" />
+            <span>Finish design</span>
+            <button class="edit-btn"></button>
+            <button class="delete-btn"></button>
+          </div>
+
+          <div class="task-item">
+            <input type="checkbox" />
+            <span>complete GOF</span>
+          </div>
+
+          <div class="task-item">
+            <input type="checkbox" />
+            <span>start KTV</span>
+          </div>
+
+          <div class="task-item">
+            <input type="checkbox" />
+            <span>start KTH</span>
+          </div>
+
+          <div class="task-item">
+            <input type="checkbox" />
+            <span>complete TOH</span>
+          </div>
+
+          <!-- Add Task -->
+          <div class="task-item add-task">
+            <button>Add task</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
